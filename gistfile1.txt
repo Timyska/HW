@@ -1,5 +1,5 @@
-import math, random
 from math import log, sin, cos, tan, radians, log10, pi
+from random import randint 
 print('программа 1')
 N = int(input('Введите число '))
 a = int(input('Ведите начало множества '))
