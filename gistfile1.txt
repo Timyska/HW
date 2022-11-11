@@ -28,8 +28,8 @@ while not ('конец' in strk):
 
 print('программа 3')
 n = int(input("введите число от 0 до 1000 "))
-a = random.randint(0, 1000)
-b = random.randint(0, 1000)
+a = randint(0, 1000)
+b = randint(0, 1000)
 if i in range(min(a, b), max(a, b)):
     print('Lucky')
 else:print('Try again')
